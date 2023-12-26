@@ -1,0 +1,60 @@
+.serviços,
+.secao-tudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px 20px;
+}
+.secao-tudo h1 {
+  height: 20px;
+  position: relative;
+  top: -140px;
+  left: 750px;
+  white-space: nowrap;
+}
+
+.serviços-1,
+.serviços-2,
+.serviços-3,
+.serviços-4,
+.serviços-5,
+.serviços-6 {
+  background: rgb(62, 151, 161);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 151, 161, 1) 12%,
+    rgba(18, 85, 179, 1) 75%
+  );
+
+  border-radius: 47px 19px 47px 19px;
+  -moz-border-radius: 47px 19px 47px 19px;
+  -webkit-border-radius: 47px 19px 47px 19px;
+
+  -webkit-box-shadow: 13px 18px 63px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 13px 18px 63px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 13px 18px 63px 0px rgba(0, 0, 0, 0.6);
+
+  width: 300px;
+  height: 200px;
+  display: grid;
+  justify-items: start;
+  padding: 50px 30px;
+  max-width: 25ch;
+  display: grid;
+}
+
+.serviços .span2 {
+  color: #ffff00;
+}
+
+.serviços h3 {
+  margin-top: 50px;
+  color: white;
+  font-weight: 520;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.serviços p {
+  color: white;
+  font-weight: 320;
+}

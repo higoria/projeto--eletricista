@@ -1,0 +1,37 @@
+.wallas-logo {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-top: -120px;
+}
+
+.header-lista {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header a {
+  color: aliceblue;
+}
+
+.header-lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -160px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.header {
+  background: rgb(62, 89, 161);
+  background: linear-gradient(
+    0deg,
+    rgba(62, 89, 161, 1) 0%,
+    rgba(12, 21, 57, 1) 100%
+  );
+  height: 180px;
+  width: 100%;
+}

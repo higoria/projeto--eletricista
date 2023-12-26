@@ -1,0 +1,45 @@
+.conteudo {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.banner2 {
+  position: relative;
+  top: -650px;
+  z-index: -2;
+  width: 100%;
+  height: 500px;
+}
+
+.conteudo-texto p {
+  font-weight: 200;
+  max-width: 45ch;
+  justify-content: center;
+}
+.conteudo-texto h1 {
+  font-size: 2.5rem;
+  line-height: 60px;
+}
+
+.conteudo-texto {
+  grid-column: 2;
+  width: 600px;
+  position: relative;
+  left: 20px;
+  top: 170px;
+  justify-items: end;
+  color: aliceblue;
+}
+
+.eletri {
+  position: relative;
+  top: -150px;
+  margin-left: 500px;
+}
+
+.section2 {
+  height: 700px;
+}

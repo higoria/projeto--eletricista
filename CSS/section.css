@@ -1,0 +1,39 @@
+.fulltextos {
+  display: grid;
+  justify-content: center;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.fulltextos h1 {
+  max-width: 29ch;
+  font-size: 3.1rem;
+  color: #00008b;
+}
+
+.fulltextos p {
+  max-width: 50ch;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.fulltextos ol {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.imagens {
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+}
+.imagens img {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  position: relative;
+  z-index: 20;
+  top: -900px;
+  left: 1300px;
+  width: 300px;
+}

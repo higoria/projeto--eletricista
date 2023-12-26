@@ -1,0 +1,56 @@
+.textos {
+  position: relative;
+  top: 150px;
+
+  margin-top: 300px;
+  margin-left: 80px;
+}
+.textos .texto-h1 {
+  font-size: 3rem;
+  color: aliceblue;
+}
+.textos .texto-p {
+  font-size: 2.1rem;
+  max-width: 35ch;
+  color: aliceblue;
+}
+.banner {
+  display: block;
+  margin-left: 603px;
+  margin-top: -733px;
+  width: 1500px;
+}
+
+.main {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 110, 1) 47%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: -300px;
+  height: 600px;
+  width: 100%;
+}
+
+.span {
+  color: yellow;
+}
+
+.textos .linkzap {
+  margin-top: 50px;
+  background-color: #00ffff;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+}
+.linkzap:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.texto-a {
+  margin-top: 20px;
+}

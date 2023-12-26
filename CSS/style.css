@@ -1,0 +1,14 @@
+@import "/CSS/banner.css";
+@import "/CSS/header.css";
+@import "/CSS/section.css";
+@import "/CSS/banner2.css";
+@import "/CSS/section3.css";
+@import "/CSS/section4.css";
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: "Fira Sans", sans-serif;
+}
